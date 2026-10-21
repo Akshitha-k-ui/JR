@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#100d18"><title>From Teacher to Partner ❤️</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&family=Parisienne&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head>
+<body><div class="grain"></div><header><a class="brand" href="#home">♥ OUR LITTLE UNIVERSE</a><nav><a href="#story">Our story</a><a href="#quiz">Moon quiz</a><a href="#letter">A letter</a><a href="#birthday">Birthday</a></nav><button id="musicToggle">♫ <span id="musicLabel">Music off</span></button></header>
+<main><section class="hero" id="home"><div class="hero-copy"><p class="eyebrow">A TRUE LOVE STORY · 22 OCTOBER 2026</p><p class="script">for my mwth</p><h1>From Teacher<br><em>to Partner.</em></h1><p class="intro">From one classroom at KEONICS to a love that crossed countries.</p><a class="btn" href="#story">Begin our story ↓</a><p class="tiny">♥ Every little moment led me to you.</p></div><div class="hero-art"><div class="orbit"></div><div class="photo-frame"><div class="placeholder"><span>♡</span><b>Your favourite photo together</b><small>media/photos/hero.jpeg</small></div><img src="media/photos/hero.jpeg" alt="Our photo" onerror="this.style.display='none'"></div><div class="float f1">you + me ∞</div><div class="float f2">same heart, different countries</div></div><a class="scroll" href="#dedication">SCROLL TO BEGIN ↓</a></section>
+<section class="dedication" id="dedication"><p class="eyebrow">BEFORE THE STORY BEGINS</p><h2>Some people enter your life<br><em>without knowing they’ll become your home.</em></h2><p>You came into my classroom as my student. I never knew that one day, the boy sitting in front of a computer would become the person I look for in every little thing.</p><div class="script sign">Your Ammu ♡</div></section>
+<section class="story" id="story"><div class="section-title"><p class="eyebrow">CHAPTERS OF US</p><h2>Our story, <em>one memory at a time.</em></h2></div><div class="story-layout"><div id="chapterList" class="chapter-list"></div><article class="chapter-view"><div class="topline"><span id="chapterNumber">CHAPTER 01</span><span> A MEMORY THAT STAYS</span></div><h3 id="chapterTitle"></h3><p class="subtitle" id="chapterSubtitle"></p><div id="chapterMedia" class="media"><div class="placeholder"><span>✧</span><b>Your memory goes here</b><small>Add a photo path in script.js</small></div></div><div id="chapterCopy" class="copy"></div><blockquote id="chapterQuote"></blockquote><div class="controls"><button id="prev">← Previous</button><span id="progress">01 / 16</span><button id="next">Next memory →</button></div></article></div></section>
+<section class="interlude"><span>“</span><h2>It was never just about the big moments.<br><em>It was the little things that became everything.</em></h2><p class="script">and somehow, it was always you.</p></section>
+<section class="gallery"><div class="section-title"><p class="eyebrow">THE LITTLE THINGS</p><h2>A gallery of <em>our forever.</em></h2></div><div class="gallery-grid">
+<figure><div class="gallery-placeholder"><small>media/photos/1.jpeg</small></div><img src="media/photos/1.jpeg" height="utf-8" onerror="this.style.display='none'" alt="Classroom memory"></figure>
+<figure><div class="gallery-placeholder"><small>media/photos/keychain.jpg</small></div><img src="media/photos/2.jpeg" onerror="this.style.display='none'" alt="Keychain memory"></figure>
+
+<figure><div class="gallery-placeholder"><small>media/photos/dairy.jpeg</small></div><img src="media/photos/3.jpeg" onerror="this.style.display='none'" alt="dairy memory"></figure>
+<figure><div class="gallery-placeholder"><small>media/photos/scooty.jpeg</small></div><img src="media/photos/4.jpeg" onerror="this.style.display='none'" alt="dairy memory"></figure>
+<figure><div class="gallery-placeholder"><small>media/photos/dairy.jpeg</small></div><img src="media/photos/5.jpeg" onerror="this.style.display='none'" alt="dairy memory"></figure>
+<figure><div class="gallery-placeholder"><small>media/photos/dairy.jpeg</small></div><img src="media/photos/6.jpeg" onerror="this.style.display='none'" alt="dairy memory"></figure>
+</section>
+
+<section class="video-section"><div class="video-copy"><p class="eyebrow">PRESS PLAY, WHEN YOU'RE READY</p><h2>Our little <em>memory film.</em></h2></div><div class="video-wrap"><video controls playsinline preload="metadata"><source src="media/videos/our-story.mp4" type="video/mp4"></video></div></section>
+
+<section class="moon-quiz" id="quiz">
+  <div class="quiz-card">
+    <p class="eyebrow">A LITTLE MOONLIT CHALLENGE</p>
+    <p class="script">Only my favourite human knows…</p>
+    <h2>Our silly little <em>love quiz</em> 🌙</h2>
+    <p class="quiz-intro">Answer my questions correctly, mwth. A little surprise is waiting for you at the end. 💌</p>
+    <div id="quizQuestions" class="quiz-questions"></div>
+    <button class="btn" id="checkQuiz">Unlock your surprise ✨</button>
+    <p id="quizFeedback" class="quiz-feedback" role="status" aria-live="polite">Your questions will appear here after you add them in <code>script.js</code>.</p>
+    <div id="birthdaySurprise" class="birthday-surprise" hidden>
+      <p class="script">You did it, my moon. 🌙</p>
+      <h3>Your birthday wish, made just for you. ❤️</h3>
+      <p>Press play and listen to your Ammu.
+        <b>Sorry mwthe nani expect akya pole voice edan ayita voice clear ayit ketit illang sorry le..</b>
+      </p>
+      <video id="birthdayWishVideo" controls playsinline preload="metadata">
+        <source src="media/videos/birthday-wish.ogg" type="video/mp4"></video>
+        <video id="birthdayWishVideo" controls playsinline preload="metadata">
+        <source src="media/videos/birthday-wish2.ogg" type="video/mp4">
+        Your browser does not support this video.
+      </video>
+      <!-- <p class="tiny">Add your video as <code>media/videos/birthday-wish.mp4</code>.</p> -->
+    </div>
+  </div>
+</section>
+<section class="letter" id="letter"><div class="letter-card"><p class="eyebrow">A LETTER FROM AMMU</p><h2>To my <em>mwth,</em></h2><div class="letter-body"><p>Happy Birthday, my love. ❤️</p><p>Sometimes I think about how our story began. You walked into KEONICS as my student, and I was simply your teacher. Neither of us knew that a classroom, a computer desk, and all those little conversations would become the beginning of something so important to me.</p><p>From the Neymar keychain and the diary pages, to the scooty ride, the days when I couldn't walk, our late-night conversations, and the surprise in Bangalore — every memory has a little piece of my heart in it.</p><p>We've had beautiful days, difficult days, misunderstandings, and moments when life made things complicated. But what matters to me is that we kept trying to understand each other. Our story was never perfect; it became special because it was ours.</p><p>Now there are miles between us, different routines, and nights when I wake up just to see your face on my phone. I wish I could be beside you today, hold your hand, and wish you in person. Until that day comes, I hope you can feel my love in every message, every call, and every little thing I do for you.</p><p>Wherever your career takes you, I will always be proud of you. I hope this new year of your life brings you peace, courage, success, and all the happiness your heart deserves.</p><p>Thank you for becoming more than a memory from my classroom. Thank you for becoming my person.</p><p class="emphasis">From teacher to partner. From KEONICS to a love that crossed countries. Miles apart, but always close to my heart.</p><p class="script sign">Always yours,<br>Your Ammu ♡</p></div><button class="btn" id="secretBtn">Open one last little secret ♡</button><div id="secret" hidden><p class="script">My wish is simple…</p><h3>One day, no screens.<br>No goodbyes.<br><em>Just us, together.</em></h3><p>Until then, I'll keep choosing you — in every time zone, every ordinary day, and every tomorrow.</p>♥</div></div></section>
+<section class="birthday" id="birthday"><p class="eyebrow">22 · 10 · 2026</p><p class="script">to the boy who became my home</p><h2>Happy Birthday,<br><em>My Love.</em> ♥</h2><div class="birthday-photo"><div class="placeholder"><span>♡</span><b>Add your birthday photo</b><small>media/photos/birthday.jpg</small></div><img src="media/photos/birthday.jpeg" alt="Birthday memory" onerror="this.style.display='none'"></div><div class="final-lines"><p>From Teacher to Partner…</p><p>From KEONICS to a love that crossed countries.</p><p>Miles apart, but always close to my heart.</p><p class="birthday-line">Happy Birthday, My Love ❤️</p><p class="date">22 October 2026</p></div><p class="script sign">Your Ammu, always.</p><button class="restart" onclick="window.scrollTo({top:0,behavior:'smooth'})">↺ Read our story again</button></section></main>
+<footer>MADE WITH ALL MY LOVE <span>♥</span> FOR MY MWTH · 22.10.2026</footer><audio id="music" loop><source src="media/music/our-song.mp3" type="audio/mpeg"></audio><script src="script.js"></script></body></html>

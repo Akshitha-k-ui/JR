@@ -1,0 +1,1 @@
+Place your photos here. See the main README.txt for the suggested filenames.
